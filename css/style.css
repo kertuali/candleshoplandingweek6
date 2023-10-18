@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+.intro-image {
+    background-image: url(../img/Holidayfragnances.jpeg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro-image__text a {
+    border: 2px solid burlywood;
+    background-color: rgba(192, 138, 67, 0.658);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: whitesmoke;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 0 1rem 2rem burlywood;
+}
+
+.intro-image__text a:active {
+    box-shadow: 0 0.5rem 1rem rgba(192, 138, 67, 0.658);
+    transform: translateY(50px);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: rgba(11, 46, 11, 0.932);
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.packaging-image {
+    height: 450px;
+    background-image: url(../img/packaging.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.packaging-image__text a {
+    background-color: rgba(83, 59, 13, 0.527);
+    border: 2px solid rgb(94, 68, 13);
+    color: antiquewhite;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.packaging-text {
+    background-color: rgb(70, 49, 11);
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    margin-top: -6rem;
+    clip-path: polygon(53% 16%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.tutorials-image {
+    height: 450px;
+    background-image: url(../img/tutorial.webp);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.tutorials-image__text a {
+    background-color: #4a6a6fa1;
+    border: 2px solid #4a6a6f;
+    color: #a8cdd5;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 0 1rem 2rem #4a6a6f;
+    background-color: #4a6a6fa1;
+}
+
+.tutorials-image__text a:active {
+    box-shadow: 0 0.5rem 1rem #4a6a6f;
+    transform: translateY(50px);
+}
+
+.footer {
+    height: 250px;
+    background-color: #33160d;
+    color: #cc8e91;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: #cc8e91;
+    transition: all 1.5s ease-in-out;
+}
+
+.footer ul li:hover {
+    transform: scale(1.1);
+}
+
+.footer ul li a:hover {
+    color: white;
+}
+
+.copyright {
+    margin-top: 2rem;
+}
